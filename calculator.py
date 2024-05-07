@@ -5,6 +5,7 @@
 # Description: A Tkinter application that allows users to easily calculate their final course
 #              grades. Users will be able to input labels for each field and adjust their 
 #              grading scale based on their course.
+
 import tkinter as tk
 from tkinter import messagebox
 
@@ -70,7 +71,7 @@ class GradeCalculatorApp(tk.Tk):
         field['label_entry'].insert(0, field['label'])
 
         # Have the user input the weight for this field.
-        tk.Label(self.current_frame, text="Weight (in %):").pack()
+        tk.Label(self.current_frame, text="Weight (using percentage):").pack()
         field['weight_entry'] = tk.Entry(self.current_frame)
         field['weight_entry'].pack()
         field['weight_entry'].insert(0, str(field['weight']))
