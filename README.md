@@ -44,7 +44,4 @@ Upon running the program, you will be prompted to enter the number of fields. Ea
 
 - 5/11/2024
 
-### Feedback or Issues
-
-For any feedback or issues, please create an issue [here](https://github.com/yourusername/yourrepository/issues).
 
